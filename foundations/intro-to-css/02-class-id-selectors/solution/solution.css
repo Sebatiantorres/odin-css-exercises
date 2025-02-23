@@ -1,0 +1,22 @@
+.number.p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightcoral;
+}
+
+#secondElement {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: blue;
+}
+
+#thirdElement {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+
+}
+
+#fourthElement {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
