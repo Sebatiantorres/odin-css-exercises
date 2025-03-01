@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  /*
+    SOLUTION 1: WE CHANGE THE SELECTORS TO GROUPING SELECTORS  
+  
+  */
+body p.para{
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+  }
+  /*
+    SOLUTION 2: WE CHANGE SPECIFICITY OF THE SELECTORS AND ADD OTHER INSTANCE OF THE CLASS
+  
+  */
+  .para.small-para {
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  /*
+    SOLUTION 3: WE CHANGE THE SELECTORS AND ADD MORE SPECIFICITY
+    WITH A PARENT SELECTOR AND THE CHILD SELECTOR AND CLASS
+  */
+  
+body p.para {
+    font-size: 22px;
+}
+    
+    /*
+        SOLUTION 4: WE CHANGE THE SELECTORS AND 
+        ADD THE SELECTOR ID, SELECTOR TAG AND CLASS 
+    */
+#confirm-button.button.confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+} 
+/*
+    SOLUTION 5: WE CHANGE THE SELECTORS AND
+    JUST ADD THE SELECTOR TAG TO MAKE THIS STYLES TO THE TWO BUTTONS
+
+*/
+  button  {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+ 
+  
+  /*
+    SOLUTION 6: CHANGE THE SELECTORS AND
+    ADD THE SPECIFICITY OF THE SELECTORS
+    WITH A TAG SELECTOR AND CLASS SELECTOR IN THIS CASE A DIV THAT HAVE THE CLASS text
+
+    
+  */
+  div.text{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+  
+ /*
+    SOLUTION 7: WE CHANGE THE SELECTORS AND 
+    ADD SELECTOR PARENT TAG AND CHILD SELECTOR TAG AND SAME CHILD ORDER CLASS
+  
+  */
+  div div.text.child {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
+
